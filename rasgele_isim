@@ -1,0 +1,8 @@
+import random
+
+def isim_olustur():
+    birinci_isim = ["Sevgi","Gokhan","Ezgi","Murat","Elif","Ayse","Umut","Aykut","Serhat","Eren"]
+    ikinci_isim = ["Aktas", "Toprak","Ozturk","Aslan","Turker","Kalkan","Mirrik","Cetin"]
+    return "{} {}".format(random.choice(birinci_isim),random.choice(ikinci_isim))
+for i in range (10):
+        print(isim_olustur())
